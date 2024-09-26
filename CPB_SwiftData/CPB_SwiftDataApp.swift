@@ -13,5 +13,6 @@ struct CPB_SwiftDataApp: App {
         WindowGroup {
             ContentView()
         }
+        .modelContainer(for: CollegeModel.self)
     }
 }
